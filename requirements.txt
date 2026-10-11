@@ -1,0 +1,8 @@
+# Dependencies installed by the notebook (Step 1). Google Colab already provides pandas and matplotlib.
+# Verified on 2026-10-11 with google-genai 2.29.0 and langfuse 4.17.0.
+google-genai>=2.3.0        # Gemini Interactions API requires 2.3.0 or later
+langfuse>=4,<5             # Python SDK v4 API (start_as_current_observation, propagate_attributes)
+
+# Needed only when running outside Colab:
+pandas>=2.0
+matplotlib>=3.7
